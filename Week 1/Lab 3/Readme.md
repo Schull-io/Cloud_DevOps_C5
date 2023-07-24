@@ -1,4 +1,3 @@
-# Lab 3
 
 Here is the class assignment everyone will do
 
@@ -14,15 +13,33 @@ Step 3: Atached proof in your local machine and push to the remote repo.
 ## Ls command
 
 List all files in the current directory, including hidden files: ls -a
+![Alt text](<../../../../LS Screenshot/ls a.JPG>)
 List all files in the current directory, including hidden files, and show their file sizes: ls -lh
+
 List all files in the current directory sorted by modification time: ls -lt
+![Alt text](<../../../../LS Screenshot/ls lt.JPG>)
+
 List only directories in the current directory: ls -d */
+![Alt text](<../../../../LS Screenshot/ls d.JPG>)
+
 List all files in the current directory, including hidden files, and display them in a long format with the owner's name: ls -l --show-control-chars --group-directories-first --author
+![Alt text](<../../../../LS Screenshot/ls l.JPG>)
+
 List all files in the current directory and its subdirectories: ls -R
+![Alt text](<../../../../LS Screenshot/ls R3.JPG>)
+
 List all files in the curren t directory and its subdirectories, including hidden files: ls -R -a
+![Alt text](<../../../../LS Screenshot/ls R a 2.JPG>)
+
 List all files in the current directory and its subdirectories, sorted by file size: ls -R -S
+![Alt text](<../../../../LS Screenshot/ls R s 1.JPG>)
+
 List all files in the current directory and its subdirectories, showing their inode numbers: ls -R -i
+![Alt text](<../../../../LS Screenshot/ls r i.JPG>)
+
 List all files in the current directory and its subdirectories, showing the file type and permissions: ls -R -F
+![Alt text](<../../../../LS Screenshot/ls R F.JPG>)
+
 
 
 ## Cp command
