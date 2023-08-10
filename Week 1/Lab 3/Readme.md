@@ -44,8 +44,14 @@ List all files in the current directory and its subdirectories, showing the file
 
 ## Cp command
 Copy a file from one directory to another: cp /path/to/source/file.txt /path/to/destination/
+![Alt text](<../../../../CP Command/Cp command.JPG>)
+
 Copy multiple files at once: cp file1.txt file2.txt file3.txt /path/to/destination/
+![Alt text](<../../../../CP Command/Cp command.JPG>)
+
 Copy a directory and its contents: cp -r /path/to/source/directory/ /path/to/destination/
+![Alt text](<../../../../CP Command/Directory copied.JPG>)
+
 Preserve the permissions of the original file when copying: cp -p /path/to/source/file.txt /path/to/destination/
 Overwrite an existing file without prompting: cp -f /path/to/source/file.txt /path/to/destination/
 Copy multiple files and rename them in the process: cp file1.txt file2.txt /path/to/destination/new_name1.txt new_name2.txt
