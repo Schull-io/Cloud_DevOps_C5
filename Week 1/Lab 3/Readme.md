@@ -13,45 +13,22 @@ Step 3: Atached proof in your local machine and push to the remote repo.
 ## Ls command
 
 List all files in the current directory, including hidden files: ls -a
-![Alt text](<../../../../LS Screenshot/ls a.JPG>)
 List all files in the current directory, including hidden files, and show their file sizes: ls -lh
-
 List all files in the current directory sorted by modification time: ls -lt
-![Alt text](<../../../../LS Screenshot/ls lt.JPG>)
-
 List only directories in the current directory: ls -d */
-![Alt text](<../../../../LS Screenshot/ls d.JPG>)
-
 List all files in the current directory, including hidden files, and display them in a long format with the owner's name: ls -l --show-control-chars --group-directories-first --author
-![Alt text](<../../../../LS Screenshot/ls l.JPG>)
-
 List all files in the current directory and its subdirectories: ls -R
-![Alt text](<../../../../LS Screenshot/ls R3.JPG>)
-
 List all files in the curren t directory and its subdirectories, including hidden files: ls -R -a
-![Alt text](<../../../../LS Screenshot/ls R a 2.JPG>)
-
 List all files in the current directory and its subdirectories, sorted by file size: ls -R -S
-![Alt text](<../../../../LS Screenshot/ls R s 1.JPG>)
-
 List all files in the current directory and its subdirectories, showing their inode numbers: ls -R -i
-![Alt text](<../../../../LS Screenshot/ls r i.JPG>)
-
 List all files in the current directory and its subdirectories, showing the file type and permissions: ls -R -F
-![Alt text](<../../../../LS Screenshot/ls R F.JPG>)
 
 
 
 ## Cp command
 Copy a file from one directory to another: cp /path/to/source/file.txt /path/to/destination/
-![Alt text](<../../../../CP Command/Cp command.JPG>)
-
 Copy multiple files at once: cp file1.txt file2.txt file3.txt /path/to/destination/
-![Alt text](<../../../../CP Command/Cp command.JPG>)
-
 Copy a directory and its contents: cp -r /path/to/source/directory/ /path/to/destination/
-![Alt text](<../../../../CP Command/Directory copied.JPG>)
-
 Preserve the permissions of the original file when copying: cp -p /path/to/source/file.txt /path/to/destination/
 Overwrite an existing file without prompting: cp -f /path/to/source/file.txt /path/to/destination/
 Copy multiple files and rename them in the process: cp file1.txt file2.txt /path/to/destination/new_name1.txt new_name2.txt
@@ -102,4 +79,4 @@ Revert to a previous version of the file by pressing Esc, then typing :e! and pr
 Search for a string in the file by pressing Esc, then typing /string and pressing Enter
 Replace all occurrences of a string in the file by pressing Esc, then typing :%s/old_string/new_string/g and pressing Enter
 Go to a specific line number by pressing Esc, then typing :line_number and pressing Enter
-Split the window into multiple panes by pressing Ctrl + w followed by v or h to split vertically or horizontally, respectively. Navigate between panes using Ctrl + w followed by h, j, k, or l.
+Split the window into multiple panes by pressing Ctrl + w followed by v or h to split vertically or horizontally, respectively. Navigate between panes using Ctrl + w followed by h, j, k, or l.git
