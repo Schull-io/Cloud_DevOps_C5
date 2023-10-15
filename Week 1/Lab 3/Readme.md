@@ -1,4 +1,3 @@
-# Lab 3
 
 Here is the class assignment everyone will do
 
@@ -23,6 +22,7 @@ List all files in the curren t directory and its subdirectories, including hidde
 List all files in the current directory and its subdirectories, sorted by file size: ls -R -S
 List all files in the current directory and its subdirectories, showing their inode numbers: ls -R -i
 List all files in the current directory and its subdirectories, showing the file type and permissions: ls -R -F
+
 
 
 ## Cp command
@@ -79,4 +79,4 @@ Revert to a previous version of the file by pressing Esc, then typing :e! and pr
 Search for a string in the file by pressing Esc, then typing /string and pressing Enter
 Replace all occurrences of a string in the file by pressing Esc, then typing :%s/old_string/new_string/g and pressing Enter
 Go to a specific line number by pressing Esc, then typing :line_number and pressing Enter
-Split the window into multiple panes by pressing Ctrl + w followed by v or h to split vertically or horizontally, respectively. Navigate between panes using Ctrl + w followed by h, j, k, or l.
+Split the window into multiple panes by pressing Ctrl + w followed by v or h to split vertically or horizontally, respectively. Navigate between panes using Ctrl + w followed by h, j, k, or l.git
